@@ -3,6 +3,8 @@
 This is an example of the Framer X folder format currently in beta* which allows
 you to use your own version control (i.e. git) with your Framer project.
 
+[Framer Folder Format Documentation ›](https://framer.gitbook.io/teams/integrations#folder-projects)
+
 \* As a beta feature it is strongly recommended that you only use this format with
 version control.
 
@@ -27,11 +29,9 @@ works for pushing and pulling changes.
 ## Converting a Project
 
 If you want to convert an existing `framerx` project to the folder format you
-can do so. For example converting a Framer project called MyProject.framerx:
-
-1. In Finder rename the MyProject.framerx file to MyProject.zip
-2. Unzip into a folder called MyProject
-3. Rename the folder to MyProject.framerfx
+can do so by going to **File > Save As** and selecting "Framer X (Folder)".
+You'll need to hold the <kbd>option</kbd> key for the **Save As** menu item
+to appear.
 
 Now you just need to create a git repository within that folder, you can do
 so via the command line or using a Git application.

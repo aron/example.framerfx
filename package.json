@@ -1,0 +1,20 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16",
+		"framer": "^0.10"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "433b8173-252a-4e62-88a6-da0e052500bb"
+	},
+	"author": "Aron Carroll",
+	"dependencies": {
+		"@framer/framer.examples": "^1.5.0"
+	}
+}

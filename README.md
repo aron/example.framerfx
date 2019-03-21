@@ -1,7 +1,10 @@
 # Example Framer X Project
 
-This is an example of the Framer X folder format currently in beta which allows
+This is an example of the Framer X folder format currently in beta* which allows
 you to use your own version control (i.e. git) with your Framer project.
+
+\* As a beta feature it is strongly recommended that you only use this format with
+version control.
 
 ## Checkout
 
@@ -23,8 +26,8 @@ works for pushing and pulling changes.
 
 ## Converting a Project
 
-If you want to convert an existing framerx project to the folder format you
-MyProject.framerx:
+If you want to convert an existing `framerx` project to the folder format you
+can do so. For example converting a Framer project called MyProject.framerx:
 
 1. In Finder rename the MyProject.framerx file to MyProject.zip
 2. Unzip into a folder called MyProject
